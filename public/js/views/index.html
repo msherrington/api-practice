@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <!-- {{ api.all[0].name }} -->
+    <div ng-repeat="beer in api.all" class="col-sm-4 tile">
+      <img ng-src="{{ beer.image_url }}" class="img-responsive">
+      <div>
+        <h2><em>{{ beer.name }}</em></h2>
+        <h3><strong>{{ beer.tagline }}</strong></h3>
+        <p><strong>"{{ beer.description }}"</strong></p>
+        <p>ABV: {{ beer.abv }}% </p>
+      </div>
+    </div>
+  </div>
+</div>

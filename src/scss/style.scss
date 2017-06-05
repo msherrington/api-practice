@@ -1,0 +1,41 @@
+$Kano-grey:  #DCDCDC;
+$Kano-orange: #FF8B36;
+
+body {
+    text-align: center;
+    background-color: $Kano-grey;
+}
+
+.head {
+  background-color: white;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+.logo {
+  text-align: center;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.tile {
+  padding: 0;
+  background-color: white;
+  border-radius: 10px;
+  border: 5px solid $Kano-grey;
+  margin-bottom: 5px;
+
+  height: 90vh;
+}
+
+.img-responsive {
+  margin: auto;
+  width: 100%;
+  height: 40vh;
+}
